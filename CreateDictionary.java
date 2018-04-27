@@ -124,7 +124,7 @@ public class CreateDictionary  extends LinkDatabase{
     private String _lpDataBaseAddress ;
     private Connection _lpDatabase_Link;
 
-    private String sqlString  = "CREATE TABLE liupeng_english_dictionary03("
+    private String sqlString  = "CREATE TABLE liupeng_english_dictionary("
             + "lp_word_id                   INT(10)         PRIMARY KEY     AUTO_INCREMENT, "
             + "lp_word_name                 VARCHAR(50)     NOT NULL, "
             + "lp_word_translation          VARCHAR(50)     NOT NULL"

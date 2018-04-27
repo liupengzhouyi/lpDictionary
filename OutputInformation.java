@@ -2,9 +2,8 @@ package lpDictionary;
 
 import java.sql.*;
 
-public class InputInformation extends LinkDatabase{
-    public InputInformation() {
-        this.setSqlString("The Number One Word","4567");
+public class OutputInformation extends LinkDatabase {
+    public OutputInformation() {
         this.set_lpInstructions(this.getSqlString());
     }
 
@@ -54,16 +53,22 @@ public class InputInformation extends LinkDatabase{
 
     @Override
     public void lpPalyMySQLInstructionsI() {
-
     }
 
     @Override
     public void lpPalyMySQLInstructionsII() {
         try {
-            String sql = this.get_lpInstructions() ;
-            System.out.println(sql);
-            this._lpDataBase_Stmt.executeUpdate(sql);
+            this.set_lpDatabaseResultSet(this.get_lpDataBase_Stmt().executeQuery(this.get_lpInstructions()));
+            while(this.get_lpDatabaseResultSet().next()){
+                //先获取数据
+                String word  = this.get_lpDatabaseResultSet().getString("lp_word_name");
+                String translation = this.get_lpDatabaseResultSet().getString("lp_word_translation");
 
+                //打印结果
+                System.out.print("word: " + word);
+                System.out.print("  translation: " +translation);
+                System.out.println();
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -121,12 +126,8 @@ public class InputInformation extends LinkDatabase{
         return sqlString;
     }
 
-    public void setSqlString(String word,String translation) {
-        this.sqlString = "INSERT INTO  " +
-                "liupeng_english_dictionary" +
-                "(lp_word_name, lp_word_translation)" +
-                " VALUES('" + word + "', " + translation + ");"
-        ;
+    public void setSqlString(String sqlString) {
+        this.sqlString = sqlString;
     }
 
     private ResultSet _lpDatabaseResultSet ;
@@ -135,6 +136,5 @@ public class InputInformation extends LinkDatabase{
     private String _lpDataBaseDriver ;
     private String _lpDataBaseAddress ;
     private Connection _lpDatabase_Link;
-    private String sqlString ;
-    ;
+    private String sqlString  = "SELECT lp_word_name, lp_word_translation FROM liupeng_english_dictionary";
 }

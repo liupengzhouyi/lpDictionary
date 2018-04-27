@@ -1,0 +1,53 @@
+helmet		n. 头盔
+robot		n. 机器人
+pill		n. 药丸
+net	        n. 网,净利,实价; a. 净余的,纯粹的; v. 用网捕,撒网,净赚
+guitar		n. 吉他; vi. 弹吉他
+sunglasses	n.太阳眼镜,墨镜
+tent		n. 帐篷; v. (住)帐篷,宿营
+imagine		v. 想像,幻想,猜测
+planet		n. 行星
+crowded		a. 拥挤的
+polluted	a. 被污染的
+hopefully	ad. 有希望地
+spacecraft	n. 宇宙飞船
+space_shuttle		航天飞机
+human		a. 人的,人类的; n. 人
+develop		v. 发展,发达,进步,开发,冲洗照片
+oxygen		n. 氧,氧气
+sure		a. 确信,必然的,必定的; ad. 当然,确实地,无疑地
+gravity		n. 地心引力,重力,严重,庄重,严肃
+settler		n. 移居者
+float		n. 漂流物,浮舟,浮萍; v. 浮动,飘,散播
+fashionable		a. 流行的,时髦的
+various		a. 各种各样的
+compare		v. 比较,比喻,对照
+dome		n. 圆屋顶
+interplanetary		adj．行星间的
+network		n. 网络; vt. 联络,交流
+force		n. 力量,武力,影响力; v. 强迫,强夺,加压力; [计算机] 强制
+vehicle		n. 传播媒介,工具,手段,交通工具,车辆;; [语]喻体
+star		n. 星,明星; v. 以星状物装饰,变成演员
+population		n. 人口
+enjoyable		a. 有趣的,愉快的
+tank		n. 水槽,池塘,战车; v. 储于槽中
+normal		a. 正常的,正规的; n. 正常状态
+astronaut		n. 宇航员
+store		n. 商店,贮藏,仓库; v. 储存,贮藏,供给
+surface		n. 表面,平面; a. 表面的,肤浅的; v. 使...成平面,被露出来,在表面工作
+spacesuit	n. 太空服，航天服
+digital		a. 数字的
+dried		a. 弄干了的
+pack		n. 包裹,一群,一副; v. 包装,捆扎,塞满
+solar		a. 太阳的，太阳能
+certain		a. 一定的; pron. 某几个,某些; 肯定的,无疑的,必然发生的
+survey		n. 纵览,视察,测量; v. 审视,视察,通盘考虑,调查
+conduct		n. 行为,举动,品行; vt. 引导,指挥,管理; vt. 导电，传热
+percentage	n. 百分率
+disadvantage		n. 不利,不利条件,损害,损失
+alien		n. 外侨;外星人; a. 外国的,相异的
+discussion	n. 讨论; v. 讨论,商议
+skim		v. 略读, 掠过, 滑过
+scan		n. 扫描,押韵,细查; v. 扫描,详细调查,分析韵律
+atmosphere	n. 大气,气氛
+carbon_dioxide		n.二氧化碳
